@@ -13,8 +13,8 @@ body{
 
 
 .entete {
-    background-image: url("../images/947dd6d838cf0d9c89cd388cb8d75af8.jpg");
-    background-size: cover;
+    background-image: url("../images/pngtree-tech-black-gold-line-particle-business-background-image_210949.jpg");
+    background-size: contain;
     color: #0ee7f2;
 
 }
@@ -299,13 +299,13 @@ flex-wrap: nowrap;
 #section-2 {
     background-image: url("../images/images.jpg");
     background-size: contain;
-
  }
 
  table{
     position: relative;
     top: 10rem;
     left: 4rem;
+    align-items: center;
 }
 
 td,th{
@@ -372,7 +372,7 @@ tfoot{
 }
 
 #img{
-    flex-grow: 1;
+
     flex-basis: 100px;
 }
 
@@ -387,6 +387,7 @@ tfoot{
     display: flex;
     justify-content:center ;
     align-items: center;
+    flex-wrap: wrap;
  }
 
  #section-6 {
@@ -468,19 +469,22 @@ tfoot{
  }
  
 .word{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    position: relative;
+    top: 10em;
+
 }
 
 .h2{
     display: flex;
     justify-content: space-around;
+
+
 }
 
 .p{
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
 }
 
 .nava{
